@@ -1,4 +1,4 @@
-# 원본 분석 (sdlottecastle.kr) — 구조·UX 관찰만, 콘텐츠 복제 없음
+# 분양 사이트 사례 분석 — 구조·UX 관찰만, 콘텐츠 복제 없음
 
 ## 기술
 - WordPress + Elementor(Pro) + Hello 테마, jQuery/Swiper/SmartMenus 등 스크립트 약 22개, CSS 파일 약 34개 → 요청 수 많고 무거움
