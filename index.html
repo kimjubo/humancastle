@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>휴먼캐슬 하늘마루 | 디자인 예시 데모</title>
+<meta name="description" content="가상의 아파트 단지 '휴먼캐슬 하늘마루'의 분양 사이트 디자인 예시입니다. 모든 정보는 더미입니다.">
+<meta name="theme-color" content="#0b1220">
+<meta property="og:type" content="website">
+<meta property="og:title" content="휴먼캐슬 하늘마루 (디자인 예시)">
+<meta property="og:description" content="가상 단지 분양 사이트 리디자인 데모">
+<meta property="og:image" content="assets/img/tower.jpg">
+<link rel="canonical" href="https://example.com/">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"휴먼캐슬 하늘마루 (가상 단지·디자인 예시)"}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<div class="demo-bar" role="note">디자인 예시 · 가상 단지 · 모든 정보는 더미입니다</div>
+<header class="nav" id="nav">
+  <a class="logo" href="#top" aria-label="휴먼캐슬 하늘마루 홈"><svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><rect x="2" y="10" width="8" height="14" fill="currentColor"/><rect x="11" y="2" width="8" height="22" fill="var(--accent)"/><rect x="20" y="14" width="4" height="10" fill="currentColor"/></svg><span>휴먼캐슬 <b>하늘마루</b></span></a>
+  <nav id="menu" aria-label="주 메뉴">
+    <a href="#overview">사업개요</a><a href="#location">입지가치</a><a href="#design">특화설계</a><a href="#units">평면</a><a href="#gallery">갤러리</a><a class="cta" href="#contact">방문예약</a>
+  </nav>
+  <button class="theme" id="theme" aria-label="다크/라이트 전환">◐</button>
+  <button class="burger" id="burger" aria-label="메뉴 열기" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+</header>
+
+<main id="main">
+<section class="hero" id="top">
+  <img src="assets/img/tower.jpg" alt="고층 아파트 단지 사진 (Unsplash 예시 이미지)" fetchpriority="high">
+  <div class="hero-in">
+    <p class="eyebrow reveal">가상의 도시 가온시 이음구 · 2029 입주 예정(가상)</p>
+    <h1 class="reveal">하늘 가까이,<br>일상은 <em>한 걸음</em> 안에</h1>
+    <p class="lead reveal">역세권 초고층 대단지의 새로운 기준을 제안하는 디자인 예시 사이트입니다.</p>
+    <div class="hero-btn reveal"><a class="btn primary" href="#contact">방문 예약하기</a><a class="btn ghost" href="#overview">단지 알아보기</a></div>
+  </div>
+  <ul class="stats reveal" aria-label="핵심 수치(더미)">
+    <li><b data-n="49">0</b><span>최고 층수</span></li><li><b data-n="1500">0</b><span>총 세대수</span></li><li><b data-n="3">0</b><span>분 도보 역세권</span></li><li><b data-n="5">0</b><span>개 평면 타입</span></li>
+  </ul>
+</section>
+
+<section class="sec" id="overview">
+  <div class="wrap">
+    <p class="kicker">Overview</p><h2 class="reveal">사업개요</h2>
+    <div class="grid2">
+      <dl class="spec reveal">
+        <div><dt>단지명</dt><dd>휴먼캐슬 하늘마루 (가칭·가상)</dd></div>
+        <div><dt>위치</dt><dd>가온시 이음구 하늘로 100 (가상 주소)</dd></div>
+        <div><dt>규모</dt><dd>지하 5층 ~ 지상 49층, 6개 동</dd></div>
+        <div><dt>세대수</dt><dd>총 1,500세대 (더미)</dd></div>
+        <div><dt>타입</dt><dd>전용 59 · 84 · 101 · 120㎡</dd></div>
+        <div><dt>입주</dt><dd>2029년 예정 (더미)</dd></div>
+      </dl>
+      <div class="cards">
+        <article class="card reveal"><i>01</i><h3>초역세권</h3><p>역까지 도보 3분, 환승 없이 도심으로 이어지는 생활권을 상정한 예시 문구입니다.</p></article>
+        <article class="card reveal"><i>02</i><h3>스카이 라운지</h3><p>최상층 커뮤니티에서 도시 전망을 누리는 공간 구성 예시입니다.</p></article>
+        <article class="card reveal"><i>03</i><h3>스마트 홈</h3><p>음성 제어, 에너지 모니터링 등 더미 특화 항목입니다.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="location">
+  <div class="wrap">
+    <p class="kicker">Location</p><h2 class="reveal">입지가치</h2>
+    <div class="grid2">
+      <figure class="map reveal">
+        <svg viewBox="0 0 400 300" role="img" aria-label="가상 입지 약도">
+          <rect width="400" height="300" fill="var(--map)"/>
+          <path d="M0 210 C100 180 200 240 400 190" stroke="var(--line)" stroke-width="22" fill="none"/>
+          <path d="M120 0 L160 300" stroke="var(--line)" stroke-width="14"/><path d="M0 90 L400 120" stroke="var(--line)" stroke-width="10"/>
+          <circle cx="200" cy="140" r="46" fill="var(--accent)" opacity=".15"/><circle cx="200" cy="140" r="9" fill="var(--accent)"/>
+          <text x="214" y="136" font-size="14" font-weight="700" fill="currentColor">휴먼캐슬</text>
+          <rect x="64" y="64" width="16" height="16" rx="3" fill="#3b82f6"/><text x="86" y="77" font-size="12" fill="currentColor">이음역</text>
+          <rect x="300" y="200" width="16" height="16" rx="3" fill="#22c55e"/><text x="322" y="213" font-size="12" fill="currentColor">중앙공원</text>
+          <rect x="290" y="50" width="16" height="16" rx="3" fill="#f59e0b"/><text x="312" y="63" font-size="12" fill="currentColor">학원가</text>
+        </svg>
+        <figcaption>※ 약도는 자체 제작한 가상 이미지입니다.</figcaption>
+      </figure>
+      <ul class="feat">
+        <li class="reveal"><b>교통</b><span>역 도보 3분 · 광역 노선 환승(예시)</span></li>
+        <li class="reveal"><b>교육</b><span>초·중·고 도보권, 학원가 인접(예시)</span></li>
+        <li class="reveal"><b>생활</b><span>대형마트·병원·도서관 반경 1km(예시)</span></li>
+        <li class="reveal"><b>자연</b><span>중앙공원·하천 산책로 연결(예시)</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="design">
+  <div class="wrap">
+    <p class="kicker">Design</p><h2 class="reveal">특화설계</h2>
+    <div class="tabs" role="tablist" aria-label="특화설계">
+      <button role="tab" aria-selected="true" aria-controls="p-site" id="t-site">단지 특화</button>
+      <button role="tab" aria-selected="false" aria-controls="p-comm" id="t-comm" tabindex="-1">커뮤니티</button>
+      <button role="tab" aria-selected="false" aria-controls="p-layout" id="t-layout" tabindex="-1">배치도</button>
+    </div>
+    <div class="panel" role="tabpanel" id="p-site" aria-labelledby="t-site">
+      <figure class="photo"><img loading="lazy" src="assets/img/facade.jpg" alt="발코니가 있는 현대적 아파트 외관 (Unsplash 예시 이미지)"></figure>
+      <ul class="bul"><li>커튼월 파사드와 개방형 발코니 (예시)</li><li>지상 차 없는 공원형 단지 (예시)</li><li>세대 간 프라이버시를 고려한 동 배치 (예시)</li></ul>
+    </div>
+    <div class="panel" role="tabpanel" id="p-comm" aria-labelledby="t-comm" hidden>
+      <div class="chips"><span>실내 수영장</span><span>피트니스</span><span>스카이 라운지</span><span>작은 도서관</span><span>키즈 카페</span><span>게스트 하우스</span></div>
+      <svg class="floors" viewBox="0 0 360 200" role="img" aria-label="커뮤니티 층별 안내(더미)"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="40" y="10" width="280" height="36"/><rect x="40" y="56" width="280" height="36"/><rect x="40" y="102" width="280" height="36"/><rect x="40" y="148" width="280" height="36"/></g><g fill="currentColor" font-size="13"><text x="56" y="33">49F 스카이 라운지</text><text x="56" y="79">3F 피트니스 · 도서관</text><text x="56" y="125">2F 키즈 카페</text><text x="56" y="171">B1 수영장</text></g></svg>
+    </div>
+    <div class="panel" role="tabpanel" id="p-layout" aria-labelledby="t-layout" hidden>
+      <svg class="site" viewBox="0 0 480 300" role="img" aria-label="단지 배치도(가상)"><rect width="480" height="300" rx="12" fill="var(--map)"/><g fill="var(--accent)" opacity=".85"><rect x="60" y="50" width="60" height="80" rx="4"/><rect x="140" y="40" width="60" height="90" rx="4"/><rect x="220" y="50" width="60" height="80" rx="4"/><rect x="300" y="40" width="60" height="90" rx="4"/><rect x="380" y="50" width="50" height="80" rx="4"/><rect x="100" y="170" width="70" height="80" rx="4"/></g><ellipse cx="290" cy="215" rx="90" ry="38" fill="#22c55e" opacity=".35"/><text x="250" y="219" font-size="13" fill="currentColor">중앙 광장</text><g fill="#fff" font-size="12" font-weight="700"><text x="82" y="95">101</text><text x="162" y="90">102</text><text x="242" y="95">103</text><text x="322" y="90">104</text><text x="397" y="95">105</text><text x="124" y="215">106</text></g></svg>
+    </div>
+  </div>
+</section>
+
+<section class="sec alt" id="units">
+  <div class="wrap">
+    <p class="kicker">Unit types</p><h2 class="reveal">평면</h2>
+    <div class="tabs" role="tablist" aria-label="평면 타입" id="unitTabs">
+      <button role="tab" aria-selected="true" data-u="59">59㎡</button><button role="tab" aria-selected="false" data-u="84" tabindex="-1">84㎡</button><button role="tab" aria-selected="false" data-u="101" tabindex="-1">101㎡</button><button role="tab" aria-selected="false" data-u="120" tabindex="-1">120㎡</button>
+    </div>
+    <div class="grid2 unit" role="tabpanel" aria-live="polite">
+      <svg id="plan" viewBox="0 0 360 260" role="img" aria-label="평면도 예시"></svg>
+      <div><h3 id="uTitle"></h3><p id="uDesc"></p><ul class="bul" id="uList"></ul><p class="note">※ 평면은 자체 제작한 단순 도식이며 실제 설계와 무관합니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="gallery">
+  <div class="wrap">
+    <p class="kicker">Gallery</p><h2 class="reveal">갤러리</h2>
+    <div class="gal">
+      <figure class="g1 reveal"><img loading="lazy" src="assets/img/tower.jpg" alt="고층 단지 전경 (Unsplash 예시)"><figcaption>단지 전경 (예시 사진)</figcaption></figure>
+      <figure class="reveal"><img loading="lazy" src="assets/img/living.jpg" alt="창밖으로 도시가 보이는 거실 (Unsplash 예시)"><figcaption>거실 조망 (예시 사진)</figcaption></figure>
+      <figure class="reveal"><img loading="lazy" src="assets/img/facade.jpg" alt="아파트 파사드 (Unsplash 예시)"><figcaption>외관 디테일 (예시 사진)</figcaption></figure>
+      <figure class="ph reveal"><svg viewBox="0 0 300 200" role="img" aria-label="조감도 자리표시자"><defs><linearGradient id="gg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#7c3aed"/></linearGradient></defs><rect width="300" height="200" fill="url(#gg)"/><g fill="#fff" opacity=".85"><rect x="60" y="60" width="30" height="140"/><rect x="110" y="30" width="36" height="170"/><rect x="165" y="75" width="30" height="125"/><rect x="215" y="100" width="26" height="100"/></g></svg><figcaption>조감도 (자리표시자)</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sec contact" id="contact">
+  <div class="wrap narrow">
+    <p class="kicker">Contact</p><h2 class="reveal">상담 · 방문예약</h2>
+    <p class="reveal sub">아래 폼은 데모이며 실제로 전송되지 않습니다. (Web3Forms 키를 넣으면 동작)</p>
+    <form id="form" class="form reveal" action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>이름<input name="name" required autocomplete="name"></label>
+      <label>연락처<input name="phone" type="tel" required autocomplete="tel" placeholder="010-0000-0000"></label>
+      <label>방문 희망일<input name="date" type="date"></label>
+      <label>관심 타입<select name="type"><option>59㎡</option><option>84㎡</option><option>101㎡</option><option>120㎡</option></select></label>
+      <label class="full">문의 내용<textarea name="msg" rows="3"></textarea></label>
+      <label class="chk full"><input type="checkbox" required> 개인정보 수집·이용에 동의합니다 (데모)</label>
+      <button class="btn primary full" type="submit">방문 예약 신청</button>
+      <p id="fmsg" class="fmsg" role="status"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <p><b>휴먼캐슬 하늘마루</b> — 디자인 예시용 가상 단지. 대표번호 000-0000-0000 (더미)</p>
+  <p>본 사이트는 실제 분양과 무관하며 특정 사이트·기업과 제휴 관계가 없습니다. 사진 출처는 CREDITS.md 참조.</p>
+</div></footer>
+<a class="fab" href="tel:0000000000">전화 상담</a>
+<script src="script.js"></script>
+</body>
+</html>
